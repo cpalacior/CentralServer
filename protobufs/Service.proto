@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message Resource{
+    string resourceName = 2;
+}
+
+message Ping{
+    int32 = 3;
+}
+
+message PingResponse{
+    int32 status_code = 1;
+    string Response = 3;
+}
+
+message TransactionResponse{
+    int32 status_code = 1;
+    string Response = 2;
+}
+
+service ProductService{
+    rpc getResource(Resource) returns (TransactionResponse) {}
+    rpc getPing(Resource) returns (TransactionResponse) {}
+}

@@ -1,0 +1,27 @@
+{
+    "P1":{
+            "active":1,
+            "url":"127.0.0.1",
+            "port": "8001",
+            "resources": ["archivo.txt", "archivo.pdf"]
+        },
+    "P2":{
+            "active":1,
+            "url":"127.0.0.1",
+            "port": "8002",
+            "resources": ["archivo.jpg", "archivo.png"]
+        },
+    "P3":{
+            "active":1,
+            "url":"127.0.0.1",
+            "port": "8003",
+            "resources": ["archivo.pptx", "archivo.docx"]
+        },
+        
+    "P4":{
+            "active":1,
+            "url":"127.0.0.1",
+            "port": "8004",
+            "resources": ["archivo.js"]
+        }
+}
